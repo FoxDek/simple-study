@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <title>Document</title>
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 80%;
+      height: 50%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide-container-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 0.1rem solid #c4c4c4;
+      height: 10rem;
+      width: 20rem;
+    }
+
+    .swiper-pagination span {
+      background-color: #7875fe;
+    }
+
+    .swiper-slide-container-link img {
+      width: 60%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <div class="swiper-slide-container">
+          <a class="swiper-slide-container-link" href="#">
+            <img src="img/partner1.png" alt="partner1">
+          </a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-container">
+          <a class="swiper-slide-container-link" href="#">
+            <img src="img/partner2.png" alt="partner2">
+          </a>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-container">
+          <a class="swiper-slide-container-link" href="#">
+            <img src="img/partner3.png" alt="partner3">
+          </a>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="swiper-slide-container">
+          <a class="swiper-slide-container-link" href="#">
+            <img src="img/partner4.png" alt="partner4">
+          </a>
+        </div>
+      </div>
+      <!-- Добавьте больше слайдов по необходимости -->
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+
+  <!-- Подключение JavaScript файла Swiper из CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Ваш собственный скрипт -->
+  <script type="text/javascript" src="js/index.js"></script>
+
+  
+</body>
+</html>
